@@ -1,0 +1,10 @@
+{
+  "apps": {
+    "T075JMFCSTD": {
+      "app_id": "A08R491F278",
+      "team_domain": "onyx-security",
+      "team_id": "T075JMFCSTD"
+    }
+  },
+  "default": "onyx-security"
+}
