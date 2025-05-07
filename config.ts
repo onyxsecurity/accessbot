@@ -1,29 +1,14 @@
 export const config: Config = {
   profiles: [
     {
-      // You can use this example config to test approvals with your own user.
-      //
-      // If you enter your own user as the approver, you will still be asked to
-      // to approve it, which is not the default behaviour.
-      description: "Accessbot Test: Review",
-      attribute: "custom:accessbotTestReview",
+      description: "Access Operational Database",
+      attribute: "custom:accessbotProduction",
       canSelfApprove: true,
       confirmSelfApproval: true,
-    },
-    {
-      attribute: "custom:accessbotTest",
-      description: "Accessbot Test: Select Users",
-      canSelfApprove: true,
-      maxSeconds: 3 * 86400, // 3 days.
       approverEmails: [
-        // Enter some email addresses here.
-        "someone@example.com",
+        "itamar@onyx.security",
       ],
-      // You can send announcements of approvals to a Slack channel.
-      // Navigate to the channel in Slack, then click the channel name above the
-      // chat and in the window that opens, select the About tab. The channel ID
-      // is available at the bottom of this window.
-      // notifyChannel: "C06TH49GKHC",
+      notifyChannel: "C08RZ9G55JL",
     },
   ],
 };
